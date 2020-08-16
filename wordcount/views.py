@@ -20,4 +20,12 @@ def count(request):
             'count': len(wordlist), 'worddict':worddict.items()})
 def about(request):
     return render(request, 'about.html')
-    
+
+def index(request):
+    return render(request, 'index.html')
+
+def pageA(request):
+    return render(request, 'pageA.html')
+
+def pageB(request):
+    return render(request, 'pageB.html')
